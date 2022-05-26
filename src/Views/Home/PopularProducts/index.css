@@ -1,0 +1,92 @@
+.popular-products {
+  background-color: #dfdfdf;
+  padding: 40px 0;
+}
+
+.popular-products .topper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.popular-products .topper > h3 {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #282828;
+}
+
+.popular-products .topper > a {
+  color: var(--main-danger-color);
+  border: var(--main-danger-color) 1px solid;
+  border-radius: 8px;
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  transition: 0.3s ease-in;
+}
+
+.popular-products .topper > a:hover {
+  background-color: white;
+  font-weight: 600;
+}
+
+.popular-products .col {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.popular-products .avatar-container {
+  height: 220px;
+}
+
+.popular-products .avatar {
+  object-fit: cover;
+  object-position: top;
+  height: 100%;
+}
+
+.popular-products .product-title {
+  color: #282828;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin: 0px 0px 5px;
+}
+
+.popular-products .product-title span {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.popular-products .info {
+  position: absolute;
+  font-weight: 500;
+  font-size: 22px;
+  bottom: 2%;
+  right: 2%;
+}
+
+.popular-products a .product-type {
+  color: rgb(49, 49, 49);
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.popular-products a .product-discount {
+  color: #282828;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.popular-products a .product-price {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: #282828;
+  text-decoration: line-through;
+}

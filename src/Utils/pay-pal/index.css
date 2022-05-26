@@ -1,0 +1,64 @@
+.payment-container h3 {
+  color: #282828;
+  font-weight: 500;
+}
+
+.payment-container .detail h4 {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #282828;
+}
+
+.payment-container .detail h4 span {
+  font-weight: 400;
+  color: #000000;
+}
+
+.payment-success,
+.payment-error {
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  gap: 15px;
+}
+
+.code {
+  background-color: #efeeee;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.code-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+
+.seller-info p {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .qr-container {
+    grid-template-columns: 250px 250px 250px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .qr-container {
+    grid-template-columns: 200px 200px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .qr-container {
+    grid-template-columns: 200px;
+  }
+}

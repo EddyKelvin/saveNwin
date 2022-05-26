@@ -1,0 +1,49 @@
+.protected-layout {
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.protected-content {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.protected-layout .ant-layout-sider {
+    display: none;
+    width: 281px !important;
+    flex: 0 0 281px !important;
+    max-width: 281px !important;
+    position: fixed !important;
+    height: 100vh;
+    background-color: #242B27;
+    z-index: 999999999;
+}
+.protected-layout .ant-layout-sider  .ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-inline.ant-menu-sub {
+    background-color: #242B27;
+}
+.protected-layout .ant-layout-sider .ant-menu-submenu:hover .ant-menu-title-content, .protected-layout .ant-menu-title-content a:hover {
+    color: #FF4C4F !important;
+}
+.protected-layout .ant-layout-sider .ant-menu-submenu:hover svg {
+    fill: #FF4C4F;
+}
+
+.protected-layout .ant-layout-sider-children {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.protected-layout .ant-layout-sider-children img {
+    margin: 0 auto 70px;
+}
+
+@media screen and (min-width: 720px) {
+    .protected-layout .ant-layout-sider  {
+        display: block;
+    }
+    .protected-content {
+        margin-left: 281px;
+    }
+}

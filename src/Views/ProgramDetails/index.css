@@ -1,0 +1,154 @@
+.program-details {
+  background-color: #dfdfdf;
+  padding: 40px;
+}
+
+.program-detail-top {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid rgb(227, 227, 227);
+  box-shadow: 1px 1px 5px rgb(206, 206, 206);
+}
+
+.program-detail-top > div:nth-child(1) {
+  padding: 0px 20px 0px 90px;
+}
+
+.program_image_container {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.program-detail-top .title {
+  font-size: 1.3rem;
+  text-transform: capitalize !important;
+}
+
+.program-detail-top .state {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.program-detail-info {
+  display: flex;
+  gap: 40px;
+}
+
+.program-detail-info p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.program-detail-info p span {
+  font-weight: 500;
+}
+
+.program-detail-top .seller-info {
+  font-size: 16px;
+}
+
+.program-detail-top .action-btns {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.program-detail-top .flag-btn {
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  background-color: transparent;
+}
+
+.program-details .buy-btn-container button {
+  background-color: #1ba735;
+  color: #f5f5f5;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+}
+
+.program-details .buy-btn-container button:hover {
+  background-color: #16922d;
+}
+
+.product_card {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgb(206, 206, 206);
+}
+
+.product_avatar {
+  height: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.program-details .product-title {
+  color: #282828;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin: 0px 0px 5px;
+}
+
+.program-details .product-title span {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.program-details .total-discount {
+  color: #282828;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.program-details .total-price {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: rgb(88, 88, 88);
+  text-decoration: line-through;
+}
+
+@media only screen and (max-width: 990px) {
+  .program-details {
+    padding: 30px 10px;
+  }
+  .program-detail-top {
+    flex-direction: column;
+  }
+  .program-detail-top > div:nth-child(1) {
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .program-detail-top > div:nth-child(2) {
+    width: 100%;
+  }
+  .program-detail-info {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .program-detail-info p {
+    align-items: start;
+  }
+}

@@ -1,0 +1,37 @@
+.paginate {
+  display: flex;
+  justify-content: center;
+}
+
+.paginate .goto-page {
+  border: 1px solid #afafaf;
+  outline: none;
+  padding: 0.3rem 1rem;
+  margin: 3rem 1rem 3rem;
+  font-size: 16px;
+}
+
+.paginate .page {
+  border: 1px solid #afafaf;
+  outline: none;
+  padding: 0.3rem 1rem;
+  margin: 3rem 0.3rem 3rem;
+  font-size: 16px;
+}
+
+.product-listing .paginate > button,
+.product-list-container .paginate > button {
+  padding: 5px 10px;
+  border: #afafaf solid 1px;
+  font-weight: 600;
+  margin: 0px 5px;
+  background-color: #eee;
+  columns: #666;
+  border-radius: 5px;
+}
+
+.product-listing .page.active,
+.product-list-container .page.active {
+  background-color: #666;
+  color: black;
+}

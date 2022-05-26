@@ -1,0 +1,38 @@
+
+
+.sub-pane .sub-form {
+    display: flex;
+    margin: 15px auto;
+}
+
+.sub-pane {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffeded;
+    margin: 20px
+}
+
+.sub-pane .col-md-6 {
+    margin: 20px auto
+}
+
+.sub-pane #email {
+    height: 35px;
+    width: 90%;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 8px;
+    margin: 0%;
+    padding: 10px;
+}
+
+.sub-pane .sub-btn {
+    background-color: var(--main-danger-color);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 0;
+    margin-left: -15px;
+    border: none;
+}

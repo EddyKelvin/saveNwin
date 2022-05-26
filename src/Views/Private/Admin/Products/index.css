@@ -1,0 +1,65 @@
+.admin-account-pannel .container {
+    width: 100%;
+    max-width: 100% !important;
+    background-color: #fff;
+    padding: 0px 30px;
+}
+.admin-account-pannel .admin-cards {
+    display: flex;
+    max-width: 242px;
+    height: 132px;
+    padding: 15px;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+}
+.admin-account-pannel .admin-cards .bottom-stats {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 500;
+    bottom: 16px;
+    right: 16px;
+    color: #42B145;
+}
+.admin-account-pannel .table .table-body li span.items:nth-child(2) {
+    justify-content: flex-start;
+}
+
+.admin-account-pannel .products-list .anticon {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.admin-account-pannel .card-content span {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: 500;
+    color: #242B27;
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.admin-account-pannel .card-content h4 {
+    display: block;
+    font-weight: 700;
+    color: #242B27;
+    font-size: 24px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.admin-account-pannel .admin-cards.earning {
+    background-color:#C7FFC8;
+}
+
+.admin-account-pannel .admin-cards.products {
+    background-color: #ABE0FF;
+}
+
+.admin-account-pannel .admin-cards.programs {
+    background-color: #FEC3D1;
+}
+
+.admin-account-pannel .admin-cards.users {
+    background-color: #ffedb4;
+}
+
+

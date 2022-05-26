@@ -1,0 +1,16 @@
+.notification-container {
+  padding: 0px 20px;
+}
+
+.notification-container h1 {
+  font-size: 28px;
+}
+
+.notification-container tbody tr {
+  cursor: pointer;
+  text-transform: none;
+}
+
+.notification-container tbody tr:hover {
+  background-color: rgba(241, 241, 241, 0.678);
+}

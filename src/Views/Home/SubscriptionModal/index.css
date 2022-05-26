@@ -1,0 +1,58 @@
+.email-popup {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.email-popup .modal-content {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.email-popup .close-btn {
+    color: var(--main-danger-color);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.email-popup .img-container {
+    position: relative;
+    padding: 0;
+}
+
+.email-popup .special {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.email-popup .modal-sub-form {
+    display: flex;
+    height: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.email-popup .modal-sub-form > input {
+    color: black;
+    background-color: #cacaca;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 5px;
+}
+
+.email-popup .modal-sub-form > button {
+    color: white;
+    background-color: var(--main-danger-color);
+    padding: 5px;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}

@@ -1,0 +1,44 @@
+.promotion {
+  padding: 20px 0;
+}
+
+.promotion h1 {
+  font-weight: bold;
+}
+
+.promotion .col-md-6 {
+  padding-right: 50px;
+}
+
+.promotion .learn-more-btn {
+  color: var(--main-danger-color);
+  border: var(--main-danger-color) 1px solid;
+  border-radius: 8px;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  transition: 0.3s ease-in;
+}
+
+.promotion .learn-more-btn:hover {
+  background-color: white;
+  font-weight: 600;
+}
+
+.promotion .img-container {
+  display: flex;
+}
+
+.promotion .img-container > img {
+  width: 50%;
+}
+
+.promotion #img-1 {
+  margin-bottom: 70px;
+}
+
+.promotion #img-2 {
+  margin-top: 70px;
+  margin-left: -45px;
+}

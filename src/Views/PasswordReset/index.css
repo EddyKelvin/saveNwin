@@ -1,0 +1,63 @@
+.password-reset {
+    position: relative;
+    padding-top: 40px;
+}
+
+.password-reset .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.password-reset .form-div {
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 4px 4px 40px 20px rgba(36, 43, 39, 0.06);
+    border-radius: 10px;
+    width: 380px;
+    padding: 30px;
+}
+
+.password-reset .login-btn {
+    width: 100%;
+    background-color: var(--main-danger-color);
+    border: none !important;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    transition: ease-in-out .3s;
+    margin-top: 20px;
+}
+
+.password-reset .login-btn:hover {
+    background-color: #ff9d7f;
+    color: #e5e5e5;
+    box-shadow: 4px 4px 4px 10px rgba(36, 43, 39, 0.06);
+}
+
+.password-reset .ant-col-24-.ant-form-item-label {
+    padding: 0 !important;
+}
+
+.password-reset .ant-input-affix-wrapper, .password-reset #login_email{
+    height: 40px;
+    background-color: #f4f4f4 !important;
+    border-radius: 10px;
+}
+
+.password-reset .login_password {
+    margin-bottom: 0 !important;
+}
+  
+.password-reset .ant-input {
+    background-color: #f4f4f4 !important;
+  }
+
+.password-reset .form-div > h3 {
+    font-weight: bold;
+}

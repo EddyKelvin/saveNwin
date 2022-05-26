@@ -1,0 +1,68 @@
+.private-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0px 20px;
+  width: 100%;
+  background-color: #fbfbfb;
+  margin-bottom: 15px;
+}
+
+.private-top .user-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ccc;
+}
+.private-top .user-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.private-top .toggle-menu {
+  width: 20px;
+  cursor: pointer;
+}
+.private-top .toggle-menu span,
+.private-top .toggle-menu::before,
+.private-top .toggle-menu::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #222;
+}
+.private-top .toggle-menu span {
+  margin: 4px 0px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.notification-count {
+  position: absolute;
+  top: -10px;
+  left: 17px;
+  font-weight: 500;
+  color: rgb(15, 12, 192);
+}
+
+@media screen and (min-width: 720px) {
+  .private-top {
+    justify-content: flex-end;
+  }
+  .private-top .toggle-menu {
+    display: none;
+  }
+
+  .private-top .user-avatar {
+    width: 40px;
+    height: 40px;
+  }
+}

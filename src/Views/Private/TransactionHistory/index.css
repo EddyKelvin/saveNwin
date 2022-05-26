@@ -1,0 +1,11 @@
+.transaction-list-container {
+  padding: 0 20px;
+}
+
+.transaction-list-container h1 {
+  font-size: 28px;
+}
+
+.transaction-list-container table tbody td {
+  font-size: 15px;
+}

@@ -1,0 +1,29 @@
+.footer {
+    background-color: rgb(32, 39, 42);
+    padding-top: 40px;
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+.footer .title {
+    font-weight: bold;
+}
+
+.footer .container > p {
+    text-align: center;
+}
+
+.footer .footer-links {
+    color: white;
+    margin-top: 15px;
+}
+
+.footer .logo {
+    width: 100px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+.redeemed-code-container {
+  padding: 0px 20px;
+}
+
+.redeemed-code-container h1 {
+  font-size: 28px;
+}
+
+.redeemed-code-container table tbody td {
+  font-size: 15px;
+}

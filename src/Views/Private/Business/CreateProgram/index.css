@@ -1,0 +1,204 @@
+.card-content {
+  text-align: center;
+  padding: 10px;
+  height: 110px;
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  color: red;
+}
+
+.card-content span {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.card-content h5 {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.card-content .saved {
+  position: absolute;
+  right: 0px;
+  color: rgb(231, 6, 6);
+  bottom: -20px;
+}
+
+.table .table-head span {
+  justify-content: center;
+}
+
+.table .table-body li span.items:first-child {
+  font-weight: 700;
+}
+
+.table .table-body li span.items {
+  font-size: 15px;
+  font-weight: 500;
+  color: #383737;
+  justify-content: center;
+}
+
+.input-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-card input {
+  font-weight: 500;
+  font-size: 18px;
+  color: #383737;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding-left: 5px;
+}
+
+.err-msg {
+  color: rgb(255, 31, 31);
+}
+
+.title-col {
+  display: inline-flex;
+}
+
+.title-col p {
+  position: relative;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 10px 20px;
+  padding: 5px 5px;
+  border: 1px solid rgb(119, 117, 117);
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgb(189, 186, 186);
+}
+
+.title-col span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.done button span {
+  color: #111111;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.done button.close {
+  border: none;
+
+  padding: 0px;
+}
+
+.done.modal-header {
+  padding: 0px;
+  padding-right: 10px;
+}
+
+.success-msg {
+  font-size: 25px;
+  color: #111111;
+  padding-bottom: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.check-icon {
+  color: #008000;
+  margin-top: 15px;
+  font-size: 40px;
+}
+
+.ant-btn-primary {
+  background-color: rgb(52, 52, 250);
+}
+
+/* /////////// */
+
+.input_field {
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 1px solid rgb(160, 160, 160);
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.input_field::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.create_program_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 1px 1px 4px rgb(211, 202, 202);
+}
+
+.create_program_card p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.create_program_card h3 {
+  font-size: 20px;
+}
+
+.selling_price {
+  background-color: #c7ffc8;
+}
+
+.discount_price {
+  background-color: #abe0ff;
+}
+
+.item_number {
+  background-color: #fec3d1;
+}
+
+.create_btn {
+  background-color: #ffedb4;
+  height: 100%;
+}
+
+.create_btn button {
+  background-color: transparent;
+  border: none !important;
+  width: 100%;
+  height: 100%;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.create_btn button:hover {
+  background-color: #f7de8b;
+}
+
+.calc_button {
+  border: 1px solid gray;
+  font-size: 10px;
+  padding: 0.4rem 0.7rem;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.calc_button:hover {
+  background-color: #ffedb4;
+}

@@ -1,0 +1,23 @@
+:root {
+  --main-danger-color: #ff4c4f;
+  --main-primary-dark-color: #242a27;
+  --main-primary-background: #e5e5e5;
+  --main-primary-color: #242B27;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Maven pro', sans-serif;
+  font-style: normal;
+  color: var(--main-primary-color);
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}

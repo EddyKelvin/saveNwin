@@ -1,0 +1,9 @@
+.public-layout {
+    background-color: #fbfbfb;
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.public-layout.no-nav {
+    padding-top: 0;
+}

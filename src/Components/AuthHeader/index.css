@@ -1,0 +1,24 @@
+a {
+    color: #FF4C4F;
+}
+.auth-header {
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.auth-header .container {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.auth-header .header {
+    margin-bottom: 10px;
+}
+
+.auth-header .header img {
+    width: 100px;
+}

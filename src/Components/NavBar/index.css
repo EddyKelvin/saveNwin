@@ -1,0 +1,155 @@
+.public-nav {
+  background-color: #242a27;
+  color: white;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  min-height: 70px;
+  z-index: 3;
+}
+
+.public-nav.home-nav {
+  background-color: transparent;
+}
+
+.public-nav .container {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.public-nav .search-form-container {
+  background-color: #fbfbfb;
+  display: flex;
+  padding: 0%;
+  border-radius: 5px;
+  border: 1px solid rgba(36, 43, 39, 0.1);
+}
+
+.public-nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.public-nav .nav-items {
+  display: inline-block;
+  margin: 10px;
+}
+
+.public-nav .nav-links {
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.public-nav #logout-btn {
+  color: #ffffff;
+}
+
+.public-nav #dashboard {
+  color: #ffffff;
+  border: #ffffff 1px solid;
+  border-radius: 8px;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  transition: 0.3s ease-in;
+}
+
+.public-nav #dashboard:hover {
+  background-color: #26292848;
+}
+
+.public-nav .mobile-toggler {
+  display: none;
+}
+
+.public-nav .logo {
+  margin: 10px;
+}
+
+.public-nav .logo > img {
+  width: 100px;
+}
+
+.public-nav .nav-links:hover {
+  color: #aeaeae;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #aeaeae;
+}
+
+.toggle-btn {
+  font-size: 30px;
+}
+
+.popover-content {
+  padding: 0;
+}
+
+.public-nav .ant-popover-inner-content {
+  padding: 0 !important;
+}
+
+.popover-content > li {
+  list-style: none;
+  padding: 10px 15px;
+  margin: 0px;
+}
+
+.popover-content > li:hover {
+  background-color: #ddd;
+  border-bottom: 1px solid #242a27;
+}
+
+.public-nav .user-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 760px) {
+  .public-nav nav {
+    display: block;
+    position: absolute;
+    top: 70px;
+    padding: 15px;
+    background-color: rgba(36, 42, 49, 0.8);
+    width: 80vw;
+    transition: 0.3s linear;
+    left: -120%;
+  }
+
+  .public-nav nav.show-nav {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .public-nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .public-nav .mobile-toggler {
+    display: inline-block;
+  }
+
+  .public-nav .nav-items {
+    width: 100%;
+  }
+
+  .public-nav .nav-links {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px white solid;
+    padding-bottom: 15px;
+  }
+}

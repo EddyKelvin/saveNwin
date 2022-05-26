@@ -1,0 +1,51 @@
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list .item {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  border-left: 2px solid #001529;
+  background-color: #eee;
+}
+
+.product-list .item.topper {
+  background-color: #001529;
+  color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.product-list .cell {
+  width: 14%;
+  text-align: center;
+  padding: 10px 0;
+  border-right: #fff 0.5px solid;
+}
+
+.product-list .cell.sell {
+  width: 19%;
+  cursor: pointer;
+}
+
+.product-list .cell.no {
+  width: 5%;
+}
+
+.product-list .cell.title {
+  width: 20%;
+  cursor: pointer;
+}
+
+.product-list .action-list {
+  list-style: none;
+  padding: 0%;
+}
+
+.product-list .action-items {
+  border-bottom: 1px black solid;
+  text-align: center;
+  cursor: pointer;
+}

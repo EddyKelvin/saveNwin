@@ -1,0 +1,123 @@
+.signup {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup .progressive {
+  display: flex;
+  align-self: center;
+  list-style: none;
+}
+
+.signup .progress-items {
+  margin: 0 10px;
+  align-items: center;
+  display: flex;
+  color: #242;
+}
+
+.signup .progress-items.active {
+  color: green;
+}
+
+.signup .anticon {
+  margin: 0 3px;
+}
+
+.signup .ant-form-item-control-input-content {
+  text-align: right;
+}
+
+.signup .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup .ant-input {
+  background-color: #f4f4f4;
+}
+
+.signup .ant-input-affix-wrapper {
+  height: 40px;
+  background-color: #f4f4f4 !important;
+  border-radius: 10px;
+}
+
+.signup .ant-form-item-label {
+  padding: 0;
+}
+
+.signup .signup-btn {
+  background-color: var(--main-danger-color);
+  border: none !important;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  height: 40px;
+  font-weight: bold;
+  color: white;
+  transition: ease-in-out 0.3s;
+  margin-top: 20px;
+}
+
+.signup .signup-btn:hover {
+  background-color: #ff9d7f;
+  color: #e5e5e5;
+  box-shadow: 4px 4px 4px 10px rgba(36, 43, 39, 0.06);
+}
+
+.signup .ant-space-item {
+  height: 40px;
+}
+
+.signup .back {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  height: 40px;
+  font-weight: bold;
+  transition: ease-in-out 0.3s;
+  margin-top: 20px;
+}
+
+.signup .back:hover {
+  color: var(--main-danger-color);
+  box-shadow: 4px 4px 4px 10px rgba(36, 43, 39, 0.06);
+  border: rgba(36, 43, 39, 0.06) solid 1px;
+}
+
+.signup .form-div {
+  max-width: 380px;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 4px 4px 40px 20px rgba(36, 43, 39, 0.06);
+  border-radius: 10px;
+  padding: 30px;
+  align-self: center;
+}
+
+.signup .progress-items {
+  white-space: nowrap;
+}
+.signup .progressive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+.terms-btn {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 480px) {
+  .signup .progress-items {
+    font-size: 9px;
+  }
+}

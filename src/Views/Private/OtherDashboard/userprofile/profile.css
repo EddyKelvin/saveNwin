@@ -1,0 +1,79 @@
+.account-wrapper {
+  width: 95%;
+  margin: auto;
+}
+.account-wrapper .account-Container {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.account-wrapper .account-Container img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.account-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.account-details h4:nth-child(1) {
+  font-weight: bold;
+}
+.account-details span:nth-child(2) {
+  color: #ff4c4f;
+}
+
+.account-Container .user-rating {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.account-wrapper .account-Container .user-rating .row {
+  flex: 0.3;
+}
+.account-wrapper .account-Container .user-rating .row span:nth-child(1) {
+  font-weight: 500;
+}
+.btnWrapper {
+  width: 100%;
+}
+.account-wrapper .account-Container .user-rating .row:nth-child(1) {
+  text-align: left;
+}
+.account-wrapper .account-Container .user-rating .row:nth-child(3) {
+  text-align: right;
+}
+.account-wrapper .account-Container .user-rating .row:nth-child(2) {
+  text-align: center;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.account-wrapper .account-Container .user-rating .row:nth-child(3) {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.editProfileWrapper {
+  /* height: 100%; */
+  margin-bottom: 20px;
+}
+.editProfileInner {
+  width: 95%;
+  margin: auto;
+}
+
+.copy-btn {
+  border: 1px solid gray;
+  background-color: rgb(156, 156, 156);
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 1px;
+  margin-left: 3px;
+}

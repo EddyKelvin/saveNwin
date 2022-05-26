@@ -1,0 +1,14 @@
+.activate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 380px;
+    min-height: 200px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 10px;
+}
+

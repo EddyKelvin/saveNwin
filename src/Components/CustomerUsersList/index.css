@@ -1,0 +1,97 @@
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 8px;
+}
+.table {
+  list-style: none;
+  padding: 0;
+  min-width: 720px;
+}
+.table .table-head {
+  display: flex;
+  align-items: center;
+  background: #242b27;
+  height: 72px;
+  border-radius: 8px 8px 0px 0px;
+}
+.table .table-head span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  font-size: 13px;
+  font-weight: 500;
+  padding-left: 20px;
+  color: #fff;
+}
+.table .table-head span:last-child {
+  width: 10%;
+}
+.table .table-body {
+  background-color: #fbfbfb;
+  padding: 0px;
+  border: 1px solid rgba(36, 43, 39, 0.1);
+  border-top: none;
+  border-bottom: none;
+  border-radius: 0px 0px 8px 8px;
+}
+.table .table-body li {
+  display: flex;
+  width: 100%;
+}
+.table .table-body li span.items {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  padding-left: 20px;
+  height: 80px;
+  color: #242b27;
+  font-size: 13px;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(36, 43, 39, 0.1);
+}
+.table .table-body li span.items:first-child {
+  font-size: 11px;
+}
+.table .table-body li span.items:nth-child(3) {
+  text-transform: capitalize;
+}
+.table .table-body li span.items:last-child {
+  width: 10%;
+}
+.table .table-body li span.user-email {
+  width: 30%;
+  color: #ff4c4f;
+  font-weight: 500;
+}
+.table .table-body li span.verification b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #242b27;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px 6px;
+  border-radius: 8px;
+  font-family: "Maven Pro", sans-serif;
+  text-transform: capitalize;
+  background-color: #8cf6ca;
+}
+
+#action-list {
+  list-style: none;
+  padding: 0%;
+}
+
+#action-list .action-items {
+  border-bottom: 1px black solid;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.table .actions > .anticon {
+  font-size: 20px;
+}

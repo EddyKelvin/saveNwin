@@ -1,0 +1,23 @@
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.384)),
+    url("../../../Assets/images/herobg.png");
+  margin-top: -80px;
+  background-attachment: fixed;
+  margin-bottom: 20px;
+}
+
+.hero .container {
+  position: relative;
+}
+
+.hero .hero-text-container {
+  color: rgb(247, 247, 247);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+
+.hero .hero-text-container h1 {
+  color: rgb(247, 247, 247);
+}
